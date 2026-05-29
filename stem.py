@@ -4,9 +4,9 @@ name = input("Please type your name: ")
 print(name)
 Question1 = "What is 2+2?"
 Question2 = "What is  the SI unit of force?"
-Question3 = "What is the chemical symbol of Oxygen"
-Question4 = "Which planet is known as the Red Planet"
-Question5 = "Which cell provides energy"
+Question3 = "What is the chemical symbol of Oxygen?"
+Question4 = "Which planet is known as the Red Planet?"
+Question5 = "Which cell provides energy?"
 Score = 0
 print(Question1)
 Ans = input("Please give ur ans: ")
@@ -59,12 +59,12 @@ else:
     print("incorrect")
     print("currentscore:",Score)
 if Score > 3:
-    print("Overall score:",(Score/5*100))
+    print("Overall score:",int((Score/5*100)))
     print("Excellent")
 elif Score == 3:
-    print("Overall score:",(Score/5*100))
+    print("Overall score:",int((Score/5*100)))
     print("Good")
 else:
-    print("Overall score:",(Score/5*100))
+    print("Overall score:",int((Score/5*100)))
     print("Try again")
 print("Thank you")
