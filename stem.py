@@ -21,7 +21,7 @@ else:
 print(Question2)
 Ans = input("Please give ur ans: ")
 print(Ans)
-if Ans == "Newton" or "N" or "Newton" or "newton":
+if Ans.lower() == "newton":
     print("correct")
     Score += 1
     print("currentscore:",Score)
@@ -31,7 +31,7 @@ else:
 print(Question3)
 Ans = input("Please give ur ans: ")
 print(Ans)
-if  Ans == "O":
+if  Ans.lower() == "o":
     print("correct")
     Score += 1
     print("currentscore:",Score)
@@ -41,7 +41,7 @@ else:
 print(Question4)
 Ans = input("Please give ur ans: ")
 print(Ans)
-if  Ans == "Mars" or "MARS" or "mars":
+if  Ans.lower() == "mars":
     print("correct")
     Score += 1
     print("currentscore:",Score)
@@ -51,7 +51,7 @@ else:
 print(Question5)
 Ans = input("Please give ur ans: ")
 print(Ans)
-if  Ans == "Mitochondria" or "mitochondria" or "MITOCHONDRIA":
+if  Ans.lower() == "mitochondria":
     print("correct")
     Score += 1
     print("currentscore:",Score)
