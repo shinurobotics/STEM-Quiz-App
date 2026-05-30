@@ -10,6 +10,7 @@ Question3 = "What is the chemical symbol of Oxygen?"
 Question4 = "Which planet is known as the Red Planet?"
 Question5 = "Which organelle provides energy?"
 Score = 0
+
 print(Question1)
 Ans = input("Please give ur ans: ")
 print(Ans)
@@ -60,6 +61,7 @@ if  Ans.lower() == "mitochondria":
 else:
     print("Incorrect")
     print("Current score:",Score)
+#Total score update
 if Score > 3:
     print("Overall score:",int((Score/5*100)))
     print("Excellent")
@@ -69,4 +71,5 @@ elif Score == 3:
 else:
     print("Overall score:",int((Score/5*100)))
     print("Try again")
+#Thank you message
 print("Thank you for using STEM Quiz App!")
