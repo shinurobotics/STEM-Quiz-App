@@ -1,8 +1,10 @@
 #Welcome screen
 start = "STEM Quiz app"
-print(start)
+print("="*32)
+print(start.center(32))
+print("="*32)
 name = input("Please type your name: ")
-print("Welcome",name + "!")
+print("Welcome"+ "," + name + "!")
 #Questions
 Question1 = "What is 2+2?"
 Question2 = "What is  the SI unit of force?"
