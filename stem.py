@@ -5,6 +5,8 @@ print(start.center(32))
 print("="*32)
 name = input("Please type your name: ")
 print("Welcome"+ "," + name + "!")
+print("1,2,3")
+print("Lets begin")
 #Questions
 Question1 = "What is 2+2?"
 Question2 = "What is  the SI unit of force?"
