@@ -15,6 +15,7 @@ This project was created to strengthen my understanding of Python fundamentals, 
 - Final percentage score calculation
 - Performance evaluation system
 - Completion message
+- Randomized questions
 
 # Quiz Topics
 The current version includes questions from:
@@ -57,8 +58,6 @@ The current version includes questions from:
 | 0-2 / 5 | Try Again |
 
 # Future Improvements
-- Larger question bank
-- Randomized questions
 - Difficulty levels
 - Multiple quiz categories
 - Timer system
@@ -67,7 +66,7 @@ The current version includes questions from:
 - Graphical User Interface (GUI)
 
 # Project Status
-✅ Version 1.0 Completed
+✅ Version 2.0 Completed
 
 # Author
 Visnu
